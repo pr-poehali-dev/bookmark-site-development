@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import BookCatalog from "@/components/BookCatalog";
 import TopAuthors from "@/components/TopAuthors";
 import RewardsSection from "@/components/RewardsSection";
+import PlatformRevenue from "@/components/PlatformRevenue";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -13,6 +14,7 @@ const Index = () => {
       <BookCatalog />
       <TopAuthors />
       <RewardsSection />
+      <PlatformRevenue />
       <Footer />
     </div>
   );
